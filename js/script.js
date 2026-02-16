@@ -1,6 +1,7 @@
 // Função para mostrar status do container
 function showStatus() {
     const statusSection = document.getElementById('status');
+    
     statusSection.scrollIntoView({ behavior: 'smooth' });
     
     // Atualizar informações dinamicamente
