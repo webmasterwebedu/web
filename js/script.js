@@ -8,7 +8,7 @@ function showStatus() {
     updateStatus();
 }
 
-// Função para mostrar informações do sistema
+// Função para mostrar informações do sistema   agora so pra mexer 
 function showInfo() {
     const timestamp = new Date().toLocaleString('pt-BR');
     const info = `
