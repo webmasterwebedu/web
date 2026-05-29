@@ -1,13 +1,14 @@
 // Função para mostrar status do container
 function showStatus() {
     const statusSection = document.getElementById('status');
+    
     statusSection.scrollIntoView({ behavior: 'smooth' });
     
-    // Atualizar informações dinamicamente
+    // Atualizar informações dinamicamente .
     updateStatus();
 }
 
-// Função para mostrar informações do sistema
+// Função para mostrar informações do sistema   agora so pra mexer //
 function showInfo() {
     const timestamp = new Date().toLocaleString('pt-BR');
     const info = `
